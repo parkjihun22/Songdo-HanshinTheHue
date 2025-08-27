@@ -31,7 +31,7 @@ export default function DarkComplexSection() {
       }}
     >
       <header className={styles.header}>
-        <div className={styles.preTitle}>Hanshin The Hue COMPLEX</div>
+        <div className={styles.preTitle}>HANSIN COMPLEX</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>단지안내</h2>
       </header>

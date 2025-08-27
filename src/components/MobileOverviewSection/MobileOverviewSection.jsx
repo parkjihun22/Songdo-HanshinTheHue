@@ -21,35 +21,28 @@ const items = [
     key: "overview",
     label: "사업개요",
     content: (
-    <ul className={styles.detailList}>
-      <li>
-        <strong>사업명</strong>
-        <span>송도역 한신더휴 프레스턴</span>
-      </li>
-      <li>
-        <strong>대지위치</strong>
-        <span>송도 고촌읍 향산리 한강시네폴리스 B-1블록</span>
-      </li>
-      <li>
-        <strong>건축규모</strong>
-        <span>
-          지하 2층 ~ 지상 25층<br />
-          9개 동 / 부대복리시설, 근린생활시설
-        </span>
-      </li>
-      <li>
-        <strong>주택형</strong>
-        <span>
-          84㎡, 99㎡
-        </span>
-      </li>
-      <li>
-        <strong>세대수</strong>
-        <span>
-          1,029세대
-        </span>
-      </li>
-    </ul>
+      <ul className={styles.detailList}>
+        <li>
+          <strong>사업명</strong>
+          <span>송도역 한신더휴 프레스턴</span>
+        </li>
+        <li>
+          <strong>대지위치</strong>
+          <span>인천광역시 연수구 청학동 96-4 일원</span>
+        </li>
+        <li>
+          <strong>건축규모</strong>
+          <span>지하 2층 ~ 지상 29층, 공동주택 8개동</span>
+        </li>
+        <li>
+          <strong>주택형</strong>
+          <span>전용 40·59㎡ (일반분양 208세대: 40㎡·59A·59B)</span>
+        </li>
+        <li>
+          <strong>세대수</strong>
+          <span>총 652세대 (일반분양 208세대)</span>
+        </li>
+      </ul>
     ),
   },
   {
@@ -62,11 +55,11 @@ const items = [
           className={styles.mapImage}
           alt="입지환경 지도 1"
         />
-        {/* <img
+        <img
           src={mobileMap2}
           className={styles.mapImage}
           alt="입지환경 지도 2"
-        /> */}
+        />
       </div>
     ),
   },
@@ -79,8 +72,8 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            송도의 중심으로 사는<br />
-            최고의 브랜드 아파트
+            송도역 생활중심과 학세권을 누리는<br />
+            한신더휴 프리미엄 라이프
           </p>
         </div>
         {/* 슬라이더 */}
@@ -94,40 +87,41 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "미래가치를 높여주는 송도 한강시네폴리스",
+      title: "송도역 도보 생활권, 더블역세권 프리미엄",
       desc:
-        "송도 프리미엄, <br />송도 한강시네폴리스 직주근접의 스마트한 라이프",
+        "수인분당선 송도역 도보권<br/>청학역(예정)으로 더블역세권 기대",
     },
     {
       img: slide2,
-      title: "한신더휴만의 특화설계",
+      title: "대형 의료·건강 인프라 초근접 프리미엄",
       desc:
-        "중대형 84㎡, 99㎡ 타입 구성으로 실거주 중심의 특화설계 프리미엄",
+        "가천대길병원, 인천사랑병원 등 종합병원 인접<br/>전문의료기관·건강검진센터 접근성 우수<br/>송도·연수권 의료 네트워크로 안심 생활",
     },
     {
       img: slide3,
-      title: "교통망 확장으로 광역 접근성 강화",
+      title: "GTX-B·월곶~판교선(예정) 대형 교통호재",
       desc:
-        "GTX-D 노선, 송도도시철도, 서울 5호선 연장 등 빠른 교통망",
+        "광역 철도망 확장으로 더 빨라지는 접근성<br/>미래가치 상승 기대",
     },
     {
       img: slide4,
-      title: "학교, 쇼핑, 병원, 자연을 한 걸음에 <br />편리한 인프라와 푸른 자연",
-      desc: "송도의 다양한 생활 인프라와 한강변 자연을 함께 누리는 최적의 입지",
+      title: "연수·송도 생활 인프라 원스톱",
+      desc:
+        "백화점·대형마트·문화시설 접근 용이<br/>도시 주요 축과 연결된 편리한 생활권",
     },
     {
       img: slide5,
-      title: "프리미엄 무상혜택",
+      title: "총 652세대 대단지, 한신더휴 브랜드",
       desc:
-        "발코니 확장 및 스마트홈 시스템, 세대 내 최신 시설 제공 등 다양한 혜택",
+        "전용 40·59㎡ 중심의 합리적 구성<br/>일반분양 208세대",
     },
     {
       img: slide6,
-      title: "완벽한 실거주 + 투자 가치",
-      desc: "전매제한 기간 종료 후 안정적인 투자처로 전환 가능",
+      title: "재건축 정비사업 기반의 안정성과 미래가치",
+      desc:
+        "송도영남아파트 재건축 정비사업<br/>한신공영 시공, 2028년 4월 입주 예정",
     },
   ];
-  
 
   const [current, setCurrent] = useState(0);
   const [touchStartX, setTouchStartX] = useState(null);
@@ -195,13 +189,13 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>Hanshin The Hue BUSINESS</div>
+        <div className={styles.preTitle}>HANSIN BUSINESS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>
 
       {/* ─── 히어로 이미지 ─── */}
-      <img src={heroImage} className={styles.heroImage} alt="한신더휴 섹션이미지1 " />
+      <img src={heroImage} className={styles.heroImage} alt="단지 전경" />
 
       {/* ─── 아코디언 항목 ─── */}
       {items.map(({ key, label, content }) => (

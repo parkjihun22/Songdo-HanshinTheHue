@@ -7,18 +7,19 @@
 }
 
 .mainImage {
-    width: 100%;               /* 가로 폭을 100%로 */
-    height: 100%;              /* 세로 높이는 자동으로 비율에 맞게 조정 */
-    object-fit: cover;         /* 이미지를 비율에 맞게 커버 */
+    width: 100%; /* 가로 폭을 100%로 */
+    height: 100%; /* 세로 높이는 자동으로 비율에 맞게 조정 */
+    object-fit: cover; /* 이미지를 비율에 맞게 커버 */
     animation: fadeInScale 1.5s ease-out forwards; /* 가운데에서 퍼지는 페이드 애니메이션 */
-}
+  }
 
 
 .subPinkImg {
     position: absolute;
-    left: 50vw; /* 화면 오른쪽 끝으로 배치 */
-    top: 0.5vw;
+    left: 45vw; /* 화면 오른쪽 끝으로 배치 */
+    top: -1vw;
     width: 5.5vw; /* 크기 조정 (필요에 따라 변경) */
+
 
     z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
     animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
@@ -48,7 +49,7 @@
 .mainImageTextBox {
     font-weight: 900;
     position: absolute;
-    top: 33%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
@@ -60,7 +61,7 @@
 
 .mainImageTextSub {
     font-size: 0.8vw; /* 텍스트2와 크기 동일 */
-    color: #01307C;
+    color: #ffffff;
     font-weight: normal;
     margin-bottom: 10px;
     animation: textSlideIn 1s ease-in-out forwards; /* 텍스트 슬라이드 애니메이션 */
@@ -70,13 +71,13 @@
     font-size: 1vw; /* 텍스트2 가장 큰 크기 */
     font-family: 'Pretendard-Regular';
     font-weight: 600;
-    color: #e31d1d; /* 회색 텍스트 */
+    color: #fbf70a; /* 회색 텍스트 */
 }
 
 .blueText {
     font-family: 'Pretendard-Regular';
     color: #ffffff; /* 파랑 텍스트 */   
-}S
+}
 
 .mainImageTitleBox {
     display: flex;
@@ -91,7 +92,7 @@
     font-weight: 800;
     font-size: 2vw; /* 텍스트2 가장 큰 크기 */
     margin: 1vw 0;
-    color: #01307C; /* 파랑 색상 */
+    color: #FFFFFF; /* 파랑 색상 */
 }
 
 /* 텍스트 애니메이션 */
@@ -131,92 +132,92 @@
 /* 모바일 화면을 위한 CSS */
 @media (max-width: 900px) {
     .mainImageTextBox1 {
-    
-        position: absolute;
-        top: 25%; /* 모바일에서 더 상단에 위치 */
-        left: 50%;
-        transform: translateX(-50%); /* 중앙 정렬 */
-        color: #FFFFFF;
-        text-align: center;
-        opacity: 0;
-        animation: textFadeIn 2s forwards 0.5s;
-        padding: 0 10px; /* 화면 크기에 맞게 여백 추가 */
+      font-family: 'Pretendard-Regular';
+      position: absolute;
+      top: 20%; /* 모바일에서 더 상단에 위치 */
+      left: 50%;
+      transform: translateX(-50%); /* 중앙 정렬 */
+      color: #ffffff;
+      text-align: center;
+      opacity: 0;
+      animation: textFadeIn 2s forwards 0.5s;
+      padding: 0 10px; /* 화면 크기에 맞게 여백 추가 */
     }
-
+  
     .mainImageTextSub1 {
-        color: #ffffff; /* 회색 */
-        font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
-        line-height: 1.8;
-        margin-bottom: 5vw; /* 모바일에서 여백 조금 줄임 */
-        animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
+      color: #ffffff; /* 회색 */
+      font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
+      font-weight: 400;
+      line-height: 1.6;
+      margin-bottom: 2vw; /* 모바일에서 여백 조금 줄임 */
+      animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
     }
-
+  
     .mainImageText1 {
-        font-family: 'Pretendard-Regular';
-        font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
-        font-weight: bold;
-        line-height: 1.2; /* 텍스트 간격 조정 */
-        margin: 0.5vw 0;
-        color: #FFFFFF; /* 파랑 색상 */
-        animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
+      font-family: 'Pretendard-Regular';
+      font-size: 4vw; /* 모바일에서 더 작은 글자 크기 */
+      margin-top: 1vw;
+      font-weight: 600;
+      color: #ffffff; /* 파랑 색상 */
+      animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
-
+  
     .mainImageTitleBox1 {
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10px;
-        color: #01307C; /* 파랑 색상 */
+      font-size: 5vw; /* 텍스트2 가장 큰 크기 */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #0b4f73; /* 파랑 색상 */
     }
-
+  
     .greyText1 {
-        font-size: 3vw; /* 텍스트2 가장 큰 크기 */
-        font-weight: 600;
-        font-family: 'Pretendard-Regular';
-        color: #fbf70a; /* 회색 텍스트 */
+      font-size: 4vw; /* 텍스트2 가장 큰 크기 */
+      font-weight: 600;
+      color: #fbf70a; /* 회색 텍스트 */
     }
-
-    
-}
-
-/* 텍스트 페이드 인 애니메이션 */
-@keyframes textFadeIn {
+  
+    .grandOpenText1 {
+      font-size: 4vw;
+      font-family: 'Gyeonggi_Title_Medium';
+      color: #0b4f73; /* 강조 색상 */
+      text-align: center;
+      margin-top: 4vw;
+    }
+  }
+  
+  /* 텍스트 페이드 인 애니메이션 */
+  @keyframes textFadeIn {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
-}
-
-/* 슬라이드 업 애니메이션 */
-@keyframes slideUp {
+  }
+  
+  /* 슬라이드 업 애니메이션 */
+  @keyframes slideUp {
     0% {
-        transform: translateY(30px); /* 텍스트가 아래에서 시작 */
-        opacity: 0;
+      transform: translateY(30px); /* 텍스트가 아래에서 시작 */
+      opacity: 0;
     }
     100% {
-        transform: translateY(0); /* 자연스럽게 위로 올라옴 */
-        opacity: 1;
+      transform: translateY(0); /* 자연스럽게 위로 올라옴 */
+      opacity: 1;
     }
-}
-
-/* 점차적으로 나타나며 올라오는 애니메이션 */
-@keyframes fadeInUp {
+  }
+  
+  /* 점차적으로 나타나며 올라오는 애니메이션 */
+  @keyframes fadeInUp {
     0% {
-        transform: translateY(50px); /* 텍스트가 아래에서 시작 */
-        opacity: 0;
+      transform: translateY(50px); /* 텍스트가 아래에서 시작 */
+      opacity: 0;
     }
     100% {
-        transform: translateY(0); /* 자연스럽게 위로 올라옴 */
-        opacity: 1;
+      transform: translateY(0); /* 자연스럽게 위로 올라옴 */
+      opacity: 1;
     }
-}
-
-
-
-
+  }
 
 .section1 {
     display: flex;
@@ -228,16 +229,16 @@
     background-color: #fffbf5;
 
     .textBox {
-        
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 7vw;
         padding-top: 9vw;
+        font-weight: 700;
         font-size: 3.5vw;
 
         .text1 {
-            font-size: 2.5vw;
+            font-size: 2vw;
             color: #c98f25;
         }
 
@@ -248,8 +249,7 @@
         }
 
         .text3 {
-            font-family: 'Pretendard-Regular';
-            margin-top: 4vw;
+            margin-top: 2vw;
             font-size: 1vw;
             line-height: 2vw;
             color: #a2978a;
@@ -277,7 +277,7 @@
         background-color: #FFFFFF;
 
         img {
-            width: 10vw;
+            width: 30%;
             margin-top: 5vw;
         }
 
@@ -304,7 +304,7 @@
     align-items: flex-start;
 
     .textBox {
-        margin-top: 13vw;
+        margin-top: 15vw;
         margin-left: 8vw;
         font-weight: 700;
         font-size: 3.5vw;
@@ -361,7 +361,7 @@
     }
 
     img {
-        margin-top: 8vw;
+        margin-top: 11vw;
         margin-right: 5vw;
         width: 30vw;
     }
@@ -434,7 +434,7 @@
     }
 
     .box:hover {
-        background-color: #01307C;
+        background-color: #0b4f73;
         color: #fff7ea;
     }
 }
@@ -542,10 +542,10 @@
 
         .mainImage {
             width: 100%;
-            height: 90vh;
+            height: 85vh;
             object-fit: cover; /* 이미지 비율 유지하면서 가득 채우기 */
             filter: brightness(0.8) contrast(1.2); /* 이미지에 어두운 필터 적용, 대비 강조 */
-        }
+          }
 
         .overlay {
             position: absolute;
@@ -943,7 +943,7 @@
         margin: 4vw 0 0 5vw;
 
         .title {
-            color: #01307C;
+            color: #0b4f73;
 
             font-size: 4vw;
             font-weight: 400;
@@ -967,7 +967,7 @@
             width: 100%;
 
             .textLine {
-                border: 2px solid #01307C;
+                border: 2px solid #0b4f73;
                 width: 0;
                 height: 7vw;
             }
@@ -1004,12 +1004,11 @@
         justify-content: flex-start;
         align-items: flex-start;
 
-        margin: 15vw 0 0 6vw;
+        margin: 16vw 0 0 6vw;
         width: 80%;
 
         .title {
-            color: #01307C;
-            font-family: 'NanumHumanTTFBold';  
+            color: #0b4f73;
             font-size: 2vw;
             font-weight: 600;
             line-height: 3.5vw;
@@ -1032,14 +1031,13 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #01307C;
+                border: 4px solid #0b4f73;
                 width: 0;
                 height: 3.5vw;
             }
 
             .subText {
-                color: #01307C;
-                font-family: 'NanumHumanTTFBold';
+                color: #0b4f73;
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1048,8 +1046,8 @@
     }
 
     img {
-        margin: 8vw 5VW 2vw 0;
-        width: 38vw;
+        margin: 13vw 5VW 2vw 0;
+        width: 45vw;
 
     }
 }
@@ -1076,7 +1074,7 @@
         height: auto;
 
         .title {
-            color: #01307C;
+            color: #0b4f73;
             font-family: 'NanumHumanTTFBold';
             font-size: 2vw;
             font-weight: 600;
@@ -1101,7 +1099,7 @@
             width: 100%;
 
             .textLine {
-                border: 4px solid #01307C;
+                border: 4px solid #0b4f73;
                 width: 0;
                 height: 3.5vw;
             }
@@ -1257,14 +1255,14 @@
 .text3 {
   font-family: 'NanumHumanTTFBold';
   font-size: 1.5rem;
-  color: #01307C;
+  color: #0b4f73;
   font-weight: bold;
 }
 
 /* text4: 전화번호 */
 .text4 {
   font-size: 1.5rem;
-  color: #01307C;       /* 예: 붉은색 */
+  color: #0b4f73;       /* 예: 붉은색 */
   font-weight: bold;
 }
 
@@ -1305,7 +1303,7 @@
 .registrationForm button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #01307C;
+  background-color: #0b4f73;
   color: #fff;
   border: none;
   border-radius: 4px;

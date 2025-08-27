@@ -48,14 +48,14 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>송도역 한신더휴 프레스턴</h2>
+            <h2>송도역한신더휴 </h2>
           </div>
 
           {/* 안내문구 */}
           <div className={styles.mobileInfoText}>
             <p>
-              본 웹사이트에서 사용된 사진 및 이미지는 <br />소비자의 이해를 돕기 위한
-              것으로 실제와 다를 수 있습니다.
+              본 웹사이트에서 사용된 사진 및 이미지는 소비자의 이해를 돕기 위한
+              것으로 <br />실제와 다를 수 있습니다.
             </p>
             <p>
               단지 주변 개발계획은 인허가 및 정부 정책에 따라 변경 또는 연기,
@@ -72,7 +72,7 @@ const Footer = () => {
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)한신더휴건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)한신공영
             </div>
           </div>
 
@@ -104,7 +104,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 송도역 한신더휴 프레스턴 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 송도역한신더휴  INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -112,10 +112,9 @@ const Footer = () => {
         <>
           <div className={styles.desktopWrapper}>
             <div className={styles.leftSide}>
-              <h2>송도역 한신더휴 프레스턴</h2>
+              <h2>송도역한신더휴</h2>
               <p>
-                본 웹사이트에서 사용된 사진 및 이미지는 소비자의<br /> 
-                이해를 돕기 위한
+                본 웹사이트에서 사용된 사진 및 이미지는 소비자의 이해를 돕기 위한
                 것으로 실제와 다를 수 있습니다.
                 <br />
                 단지 주변 개발계획은 인허가 및 정부 정책에 따라 변경 또는 연기,
@@ -129,7 +128,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)한신더휴건설 
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)한신공영 
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -157,7 +156,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 송도역 한신더휴 프레스턴 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 송도역한신더휴  INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>

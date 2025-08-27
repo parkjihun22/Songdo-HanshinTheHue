@@ -12,6 +12,8 @@ import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
 
 
+
+
 const ComplexGuide1 = () => {
   const menuContents = [
     { title: "단지 배치도", url: "/ComplexGuide/intro" },
@@ -60,13 +62,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역 한신더휴 프레스턴- 호수배치도</title>
+        <title>송도역한신더휴 - 호수배치도</title>
         <meta
           name="description"
-          content="송도역 한신더휴 프레스턴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
-    <meta name="keywords"
-        content="송도역 한신더휴 프레스턴, 송도역 한신더휴" /> 
+        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" /> 
         <link
           rel="canonical"
           href="https://hangboggift.kr/ComplexGuide/detailintro"
@@ -75,11 +77,12 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="송도역 한신더휴 프레스턴- 호수배치도"
+          content="송도역한신더휴 - 호수배치도"
         />
         <meta
           property="og:description"
-          content="송도역 한신더휴 프레스턴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
         <meta
           property="og:image"
@@ -89,17 +92,18 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://hangboggift.kr/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="송도역 한신더휴 프레스턴" />
+        <meta property="og:site_name" content="송도역한신더휴" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="송도역 한신더휴 프레스턴- 호수배치도"
+          content="송도역한신더휴 - 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="송도역 한신더휴 프레스턴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다."
+          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
         <meta
           name="twitter:image"
@@ -116,8 +120,9 @@ const ComplexGuide1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "송도역 한신더휴 프레스턴- 호수배치도",
-											"description": "송도역 한신더휴 프레스턴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.",
+											"name": "송도역한신더휴 - 호수배치도",
+											"description": "송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+",
 											"url": "https://hangboggift.kr/ComplexGuide/detailintro"
 										}
 										`}
@@ -129,7 +134,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        송도역 한신더휴 프레스턴- 호수배치도
+        송도역한신더휴 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -138,7 +143,7 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>송도역 한신더휴 프레스턴이 눈부신 가치 위에</div>
+        <div>송도역한신더휴가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -146,9 +151,12 @@ const ComplexGuide1 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="송도역 한신더휴 프레스턴호수배치도-image1"
+				alt="송도역한신더휴 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
+
+
+  
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>

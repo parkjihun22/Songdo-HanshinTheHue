@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="송도역 한신더휴 프레스턴119B 평면image" />
+			<Bener title="송도역한신더휴 119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 

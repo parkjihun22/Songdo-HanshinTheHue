@@ -31,7 +31,7 @@ export default function Customer() {
 
     try {
       // Formspree 엔드포인트로 POST
-      const res = await fetch("https://formspree.io/f/xnnzlqgg", {
+      const res = await fetch("https://formspree.io/f/xovnqoaa", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -57,7 +57,7 @@ export default function Customer() {
   };
 
   const promoMenu = [
-    // { key: "newsletter", title: "언론보도", url: "/Promotion/Press" },
+    { key: "newsletter", title: "언론보도", url: "/Promotion/Press" },
     { key: "interest", title: "방문예약등록", url: "/Promotion/Customer" },
   ];
 
@@ -67,7 +67,7 @@ export default function Customer() {
       <FixIcon />
 
       {/* 배너 */}
-      <Bener title="송도역 한신더휴 프레스턴" />
+      <Bener title="송도역한신더휴" />
 
       {/* 네비게이션 탭 */}
       <MenuBar contents={promoMenu} />
@@ -77,7 +77,7 @@ export default function Customer() {
         {/* ─── 좌측 카드 ─── */}
         <div className={styles.customerLeft}>
           <div className={styles.textBlock}>
-            <h2 className={styles.projectName}>송도역 한신더휴 프레스턴</h2>
+            <h2 className={styles.projectName}>송도역한신더휴</h2>
             <h3 className={styles.pageTitle}>방문예약등록</h3>
           </div>
           <img

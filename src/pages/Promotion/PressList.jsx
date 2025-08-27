@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 const samplePress = [
   {
     id: 1,
-    title: " 분양 개시",
+    title: "평택 브레인시티 한신더휴 분양 개시",
     date: "2024.07.21",
     summary: "분양 시작. 다양한 혜택 적용.",
     image: "/img/sample1.jpg",

@@ -16,9 +16,9 @@ import Ready from "../../components/Ready/Ready";
 
 const Interior3 = () => {
 	const menuContents = [
-		// { title: "84A", url: "/Interior/59A" },
-		// { title: "119A", url: "/Interior/84A" },
-		// { title: "119B", url: "/Interior/84B" },
+		{ title: "84A", url: "/Interior/59A" },
+		{ title: "119A", url: "/Interior/84A" },
+		{ title: "119B", url: "/Interior/84B" },
 	];	
 
 	const [isScroll, setIsScroll] = useState(false);
@@ -61,7 +61,7 @@ const Interior3 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>송도역 한신더휴이 송도의 눈부신 가치 위에</div>
+				<div>송도역한신더휴가 용인의 눈부신 가치 위에</div>
 				<div>새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
@@ -69,7 +69,7 @@ const Interior3 = () => {
 			{/*<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="송도역 한신더휴 프레스턴119타입 인테리어안내 image"
+				alt="송도역한신더휴 119타입 인테리어안내 image"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>*/}
 

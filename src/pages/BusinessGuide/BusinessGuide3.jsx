@@ -13,8 +13,8 @@ import page1 from "../../assets/BusinessGuide/documents/contract.jpg";
 const BusinessGuide2 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
-		// { title: "분양일정", url: "/BusinessGuide/plan" },
-		// { title: "공급안내", url: "/BusinessGuide/documents" }
+    	{ title: "분양일정", url: "/BusinessGuide/plan" },
+    	// { title: "계약서류안내", url: "/BusinessGuide/documents" },
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(1); // 선택된 옵션 (1~6)
@@ -71,13 +71,13 @@ const BusinessGuide2 = () => {
 		<meta name="robots" content="index, follow" />
 
 		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>송도역 한신더휴 프레스턴- 당첨자 서류안내</title>
+		<title>송도역한신더휴 - 당첨자 서류안내</title>
 		<meta
 		  name="description"
-		  content="송도역 한신더휴 프레스턴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
+		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+"
 		/>
-    <meta name="keywords"
-        content="송도역 한신더휴 프레스턴, 송도역 한신더휴" />					
+  		<meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />					
 		<link
 		  rel="canonical"
 		  href="https://hangboggift.kr/BusinessGuide/documents"
@@ -86,11 +86,12 @@ const BusinessGuide2 = () => {
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
 		<meta
 		  property="og:title"
-		  content="송도역 한신더휴 프레스턴- 당첨자 서류안내"
+		  content="송도역한신더휴 - 당첨자 서류안내"
 		/>
 		<meta
 		  property="og:description"
-		  content="송도역 한신더휴 프레스턴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
+		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+"
 		/>
 		<meta
 		  property="og:image"
@@ -100,17 +101,18 @@ const BusinessGuide2 = () => {
 		  property="og:url"
 		  content="https://hangboggift.kr/BusinessGuide/documents"
 		/>
-		<meta property="og:site_name" content="송도역 한신더휴 프레스턴" />
+		<meta property="og:site_name" content="송도역한신더휴" />
 
 		{/* Twitter 카드 설정 */}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta
 		  name="twitter:title"
-		  content="송도역 한신더휴 프레스턴- 당첨자 서류안내"
+		  content="송도역한신더휴 - 당첨자 서류안내"
 		/>
 		<meta
 		  name="twitter:description"
-		  content="송도역 한신더휴 프레스턴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다"
+		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+"
 		/>
 		<meta
 		  name="twitter:image"
@@ -127,8 +129,9 @@ const BusinessGuide2 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "송도역 한신더휴 프레스턴- 당첨자 서류안내",
-											"description": "송도역 한신더휴 프레스턴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다",
+											"name": "송도역한신더휴 - 당첨자 서류안내",
+											"description": "송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+",
 											"url": "https://hangboggift.kr/BusinessGuide/documents"
 										}
 										`}
@@ -140,16 +143,16 @@ const BusinessGuide2 = () => {
 			<Bener title="사업개요" />
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>송도역 한신더휴 프레스턴  - 계약서류안내</h1>
+            <h1 className={styles.screenReaderOnly}>송도역한신더휴  - 계약서류안내</h1>
 			<p className={styles.screenReaderOnly}>계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.</p>
 
 			<div className={styles.textBox}>
 				<div>송도의 눈부신 가치 위에</div>
-				<div>송도역 한신더휴 프레스턴의 새로운 자부심으로 찾아옵니다.</div>
+				<div>송도역한신더휴의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="송도역 한신더휴 프레스턴 계약서류안내-image1" />
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="송도역한신더휴 계약서류안내-image1" />
 
 			<Footer /> 
 		</div>

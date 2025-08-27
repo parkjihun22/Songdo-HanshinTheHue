@@ -22,41 +22,39 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 const LocationSection = [
   {
     img: section2Image1,
-    titleText:
-      "미래가치를 높여주는<br />한강시네폴리스",
+    titleText: "정비사업 및 개발호재 중심지<br />탄탄한 미래가치 입지",
     contentText:
-      "송도 한강시네폴리스 개발구역 내 최적의 입지, 미래의 교통망과 상업·업무 중심지로 발전하는 지역<br />한강과 인접한 독보적인 프리미엄 브랜드",
+      "송도영남아파트 재건축 정비사업으로 새롭게 태어나는 주거단지<br />주변 노후 주거지 정비 및 도시개발로 미래가치 기대",
   },
   {
     img: section2Image2,
-    titleText: "차량 10분 내 대형병원 인접<br />의세권을 누릴 수 있는 프리미엄",
+    titleText: "의료 인프라 프리미엄<br />건강케어 중심 입지",
     contentText:
-      "송도시의 의료 인프라를 책임지는 대형병원들이 인근에 위치하여<br />의료 서비스 접근성이 뛰어난 프리미엄 생활",
+      "가천대 길병원, 인천사랑병원 등 대형 종합병원 인접<br />다양한 전문의료기관과 건강검진센터로 편리한 의료 접근성",
   },
   {
     img: section2Image3,
-    titleText: "어디든 빠르게 연결되는<br />광역 교통망 프리미엄",
+    titleText: "더블역세권 + 광역교통망 호재<br />광역접근성 우위 단지",
     contentText:
-      "서울 및 수도권 주요 지역으로의 빠른 이동이 가능하며, 향후 개통 예정인 GTX-D 노선과 송도공항과의 연결이 편리한 교통망",
+      "수인분당선 송도역 도보권, 청학역(예정) 더블역세권<br />GTX-B·월곶~판교선·인천발 KTX(예정) 등 광역교통망 호재 수혜",
   },
   {
     img: section2Image4,
-    titleText:
-      "학교, 쇼핑, 병원, 문화를 더 가까이<br />SMART 인프라",
+    titleText: "생활 인프라 접근성<br />원스톱 도심생활 기반",
     contentText:
-      "송도시청, 대형 쇼핑몰, 문화시설 등 다양한 생활 인프라가 가까워 생활의 편리함을 더한 스마트한 인프라",
+      "롯데마트, 이마트 송도점, 홈플러스, 메가박스 등 생활·문화 인프라 밀집<br />관공서, 은행, 카페거리 등 도심 생활 편의성 우수",
   },
   {
     img: section2Image5,
-    titleText: "1,029세대 송도역 한신더휴br />첫 번째 브랜드 프리미엄",
-    contentText: "총 1,029세대 규모로<br />한강시네폴리스의 중심에서 누리는 프리미엄 브랜드와<br />입주민 편의를 위한 다양한 시설 제공",
+    titleText: "대단지 브랜드 스케일<br />652세대 한신더휴",
+    contentText:
+      "총 652세대 규모의 송도역 한신더휴 프레스턴<br />브랜드 가치와 단지 커뮤니티 활성화 기대",
   },
   {
     img: section2Image6,
-    titleText:
-      "편리한 생활에 더해지는<br />쾌적한 자연환경",
+    titleText: "쾌적한 자연·휴식 인프라<br />여유로운 생활환경",
     contentText:
-      "단지 주변으로 펼쳐지는 한강변 자연경관과, 수변공원 등<br />쾌적한 주거 환경을 제공하는 공간",
+      "문학산, 청량산 등 녹지와 도보 생활권 공원 인접<br />쾌적한 주거환경과 송도국제도시 친환경 인프라 누림",
   },
 ];
 
@@ -104,14 +102,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역 한신더휴 프레스턴- 입지환경</title>
+        <title>송도역한신더휴 - 입지환경</title>
         <meta
           name="description"
-          content="송도역 한신더휴 프레스턴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="송도역한신더휴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="keywords"
-          content="송도역 한신더휴 프레스턴, 송도역 한신더휴"
+          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
         />
         <link
           rel="canonical"
@@ -121,11 +119,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="송도역 한신더휴 프레스턴- 입지환경"
+          content="송도역한신더휴 - 입지환경"
         />
         <meta
           property="og:description"
-          content="송도역 한신더휴 프레스턴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="송도역한신더휴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           property="og:image"
@@ -135,17 +133,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://hangboggift.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="송도역 한신더휴 프레스턴" />
+        <meta property="og:site_name" content="송도역한신더휴" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="송도역 한신더휴 프레스턴- 입지환경"
+          content="송도역한신더휴 - 입지환경"
         />
         <meta
           name="twitter:description"
-          content="송도역 한신더휴 프레스턴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
+          content="송도역한신더휴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다"
         />
         <meta
           name="twitter:image"
@@ -162,8 +160,8 @@ const LocationEnvironment1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "송도역 한신더휴 프레스턴- 입지환경",
-											"description": "송도역 한신더휴 프레스턴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",
+											"name": "송도역한신더휴 - 입지환경",
+											"description": "송도역한신더휴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다",
 											"url": "https://hangboggift.kr/LocationEnvironment/intro"
 										}
 										`}
@@ -178,23 +176,24 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        송도역 한신더휴 프레스턴- 입지안내
+        송도역한신더휴 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        송도역 한신더휴 프레스턴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
-        인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 김해의
+        송도역한신더휴의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 대전의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
 
       <div className={styles.textBox}>
-        <div>갈수록 완벽해질 송도역 한신더휴 </div>
-        <div>도시를 압도할 자부심</div>
+        <div>갈수록 완벽해질 송도</div>
+        <div>살수록 높아질 한신더휴</div>
+        <div>도시를 압도할 자부심 한신더휴</div>
       </div>
 
       <img
         src={page1}
         className={styles.image2}
-        alt="송도역 한신더휴 프레스턴입지환경 이미지"
+        alt="송도역한신더휴입지환경-image1"
       />
 
       <div className={styles.section2}>
@@ -209,7 +208,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>
-          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 송도역 한신더휴 프레스턴 사업주체 및 시공사와 무관합니다.
+          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 송도역한신더휴 사업주체 및 시공사와 무관합니다.
         </div>
       </div>
 

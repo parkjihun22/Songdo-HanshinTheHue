@@ -11,13 +11,12 @@ import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/SalesInfo/SubscriptionGuide/page1.jpg";
 
 
-
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "장기일반민간임대", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
-    // { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "청약방법안내", url: "/SalesInfo/SubscriptionGuide" },
+    { title: "청약안내문", url: "/SalesInfo/guide" },
+    { title: "모집공고안내", url: "/SalesInfo/announcement" },
+    { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -62,13 +61,15 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />  
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역 한신더휴 프레스턴- 장기일반민간임대</title>
+        <title>송도역한신더휴 - 체크포인트</title>
         <meta
           name="description"
-          content="송도역 한신더휴 프레스턴분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다"
+          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
-    <meta name="keywords"
-        content="송도역 한신더휴 프레스턴, 송도역 한신더휴" />
+        <meta
+          name="keywords"
+          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
+        />
         <link
           rel="canonical"
           href="https://hangboggift.kr/SalesInfo/SubscriptionGuide"
@@ -77,11 +78,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="송도역 한신더휴 프레스턴- 장기일반민간임대"
+          content="송도역한신더휴 - 체크포인트"
         />
         <meta
           property="og:description"
-          content="송도역 한신더휴 프레스턴분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           property="og:image"
@@ -91,17 +92,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://hangboggift.kr/SalesInfo/SubscriptionGuide"
         />
-        <meta property="og:site_name" content="송도역 한신더휴 프레스턴" />
+        <meta property="og:site_name" content="송도역한신더휴" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="송도역 한신더휴 프레스턴- 장기일반민간임대"
+          content="송도역한신더휴 - 체크포인트"
         />
         <meta
           name="twitter:description"
-          content="송도역 한신더휴 프레스턴분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
+          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
         />
         <meta
           name="twitter:image"
@@ -118,8 +119,8 @@ const ComplexGuide1 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "송도역 한신더휴 프레스턴- 장기일반민간임대",
-                                            "description": "송도역 한신더휴 프레스턴분양 전 필수 장기일반민간임대를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
+                                            "name": "송도역한신더휴 - 체크포인트",
+                                            "description": "송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
                                             "url": "https://hangboggift.kr/SalesInfo/SubscriptionGuide"
                                         }
                                         `}
@@ -129,22 +130,22 @@ const ComplexGuide1 = () => {
       <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="장기일반민간임대" />
+      <Bener title="체크포인트" />
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        송도역 한신더휴 프레스턴- 장기일반민간임대
+        송도역한신더휴 - 체크포인트
       </h1>
       <p className={styles.screenReaderOnly}>
-        송도역 한신더휴 프레스턴분양 전 필수 장기일반민간임대를 확인하세요. 청약
+        송도역한신더휴 분양 전 필수 체크포인트를 확인하세요. 청약
         자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을
         정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수
         있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>송도역 한신더휴 프레스턴이 눈부신 가치 위에</div>
+        <div>송도역한신더휴가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -152,7 +153,7 @@ const ComplexGuide1 = () => {
       <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="송도역 한신더휴 장기일반 민간임대 안내 이미지1"
+        alt="송도역한신더휴 청약제도 변경안내 이미지1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       />
 

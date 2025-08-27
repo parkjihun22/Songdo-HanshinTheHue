@@ -15,7 +15,7 @@
     /* gif 배너 높이 + 안전 영역(top) */
     height: calc(var(--gif-banner-height) + env(safe-area-inset-top, 0px));
     text-align: center;
-    background-color: #01307C;
+    background-color: #0b4f73;
     position: fixed;
     top: 0;
     left: 0;
@@ -62,7 +62,7 @@
     width: 100%;
     height: 4vw; /* 헤더 높이 */
     z-index: 100;
-    background: linear-gradient(135deg, rgba(0, 33, 125, 0.785) 50%, rgba(0, 49, 99, 0.833) 70%);
+    background: linear-gradient(135deg, rgba(11, 69, 85, 0.574) 50%, rgb(5, 88, 110) 70%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@
   .dropdownItem {
     text-decoration: none;
     font-size: 0.7rem;
-    color: #01307C;
+    color: #0b4f73;
     padding: 0.5rem 1rem;
     transition: background 0.3s ease;
   
@@ -179,13 +179,13 @@
     width: 100%;
     height: 4vw;
     background-color: #ffffff;
-    border-bottom: 1px solid #01307C;
+    border-bottom: 1px solid #0b4f73;
     z-index: 1001;
     text-decoration: none;
   
     .logo {
-      margin-top: -1vw;
-      width: 33vw;
+     
+      width: 30vw;
     }
     .icon {
       margin: 1vw 3.5vw;

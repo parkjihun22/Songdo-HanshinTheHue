@@ -20,7 +20,7 @@ const Bener = ({ title }) => {
             <img
                 className={`${styles.benerImage} ${isLoaded ? styles.showImage : ''}`}
                 src={img}
-                alt="송도역 한신더휴 -benerimage"
+                alt="송도역한신더휴-benerimage"
             />
             <div className={styles.overlay}></div>
             <div
@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '한신더휴' || text === '홍보영상' || text === '장기일반민간임대'| text === '당첨자서류안내'| text === '송도역 한신더휴 프레스턴') {
+    if (text === '한신더휴' || text === '홍보영상' || text === '체크포인트' || text === '당첨자서류안내' || text === '송도역한신더휴') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
+                    하루의 무게를 내려놓는 순간, 본연으로 돌아가는 프리미엄.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    송도의 중심 
+                    송도역 생활중심, 인천 연수의 새 주거 기준.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 송도역 한신더휴 프레스턴와 함께합니다.
+                    NO.1 브랜드, 송도역 한신더휴 프레스턴과 함께합니다.
                 </div>
             </>
         );
@@ -58,13 +58,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    한신더휴이 선택한 새도시!
+                    인천 연수 생활권의 새 출발, 송도역 한신더휴.
                 </div>
-                {/* <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    용인반도체클러스트 · 삼성 · SK 하이닉스의 프리미엄
-                </div> */}
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    가장 높은 브랜드의 첫 시작
+                    수인분당선 송도역 도보생활권, 청학역(예정) 더블역세권 기대.
+                </div>
+                <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+                    브랜드 명성과 함께 높여가는 일상의 가치.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     송도역 한신더휴 프레스턴
@@ -75,10 +75,10 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
+                    역·학·생활 모두 가까운, 정점의 생활 인프라.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 송도역 한신더휴 프레스턴에서 펼쳐집니다
+                    GTX-B·월판선(예정) 호재까지, 송도역 한신더휴에서 누리세요.
                 </div>
             </>
         );
@@ -86,13 +86,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    주거의 품격과 가치를 높이는 특화설계
+                    주거의 품격과 가치를 높이는 특화 설계.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                    편리한 생활을 위한 최적의 공간 설계.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된송도역 한신더휴 프레스턴, 송도의 핵심중심에 찾아옵니다
+                    송도역 한신더휴, 송도의 핵심 입지에 찾아옵니다.
                 </div>
             </>
         );
