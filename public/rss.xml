@@ -1,160 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>송도역한신더휴</title>
     <link>https://hangboggift.kr/</link>
-    <description>
-      송도역한신더휴ㅣ☎️(대표)1533-8848ㅣ송도역한신더휴프레스턴ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약
-    </description>
-    <language>ko-kr</language>
+    <description>송도역한신더휴ㅣ☎️(대표)1533-8848ㅣ송도역한신더휴프레스턴ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약</description>
+    <language>ko-KR</language>
+
+    <!-- 이 피드 자신의 절대 URL을 정확히 명시 -->
+    <atom:link href="https://hangboggift.kr/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>모바일상담예약</title>
       <link>https://hangboggift.kr/Promotion/Customer</link>
-      <description>송도역 도보권·청학역(예정) 더블역세권의 652세대 브랜드 대단지 ‘송도역 한신더휴 프레스턴’. 분양안내, 입지, 단지, 세대, 인테리어, 언론보도, 상담예약 정보를 제공합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/Promotion/Customer</guid>
+      <description><![CDATA[송도역 도보권·청학역(예정) 더블역세권의 652세대 브랜드 대단지 ‘송도역 한신더휴 프레스턴’. 분양안내, 입지, 단지, 세대, 인테리어, 언론보도, 상담예약 정보를 제공합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-        <item>
+    <item>
       <title>브랜드소개</title>
       <link>https://hangboggift.kr/Brand/intro</link>
-      <description>송한신더휴의 브랜드 가치와 디자인 철학, 프리미엄 라이프스타일을 소개합니다</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/Brand/intro</guid>
+      <description><![CDATA[송한신더휴의 브랜드 가치와 디자인 철학, 프리미엄 라이프스타일을 소개합니다]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>홍보영상</title>
       <link>https://hangboggift.kr/Brand/video</link>
-      <description>송도역 한신더휴의 입지, 교통 호재, 생활 인프라를 영상으로 소개합니다. 브랜드 철학과 단지의 가치를 한눈에 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/Brand/video</guid>
+      <description><![CDATA[송도역 한신더휴의 입지, 교통 호재, 생활 인프라를 영상으로 소개합니다. 브랜드 철학과 단지의 가치를 한눈에 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>사업안내</title>
       <link>https://hangboggift.kr/BusinessGuide/intro</link>
-      <description>인천 연수구 청학동, 지하2층~지상29층 8개동 652세대. 송도역 도보권·청학역(예정) 더블역세권의 사업개요를 안내합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/BusinessGuide/intro</guid>
+      <description><![CDATA[인천 연수구 청학동, 지하2층~지상29층 8개동 652세대. 송도역 도보권·청학역(예정) 더블역세권의 사업개요를 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>분양일정</title>
       <link>https://hangboggift.kr/BusinessGuide/plan</link>
-      <description>모델하우스 오픈·청약 접수·당첨자 발표·계약 등 분양 일정을 한눈에 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/BusinessGuide/plan</guid>
+      <description><![CDATA[모델하우스 오픈·청약 접수·당첨자 발표·계약 등 분양 일정을 한눈에 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>청약방법안내</title>
       <link>https://hangboggift.kr/SalesInfo/SubscriptionGuide</link>
-      <description>온라인 청약 절차와 유의사항, 자주 묻는 질문을 정리했습니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/SalesInfo/SubscriptionGuide</guid>
+      <description><![CDATA[온라인 청약 절차와 유의사항, 자주 묻는 질문을 정리했습니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>청약안내문</title>
       <link>https://hangboggift.kr/SalesInfo/guide</link>
-      <description>청약 자격·방법·필요서류와 당첨자 제출서류 일정을 상세 안내합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/SalesInfo/guide</guid>
+      <description><![CDATA[청약 자격·방법·필요서류와 당첨자 제출서류 일정을 상세 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>모집공고안내</title>
       <link>https://hangboggift.kr/SalesInfo/announcement</link>
-      <description>공급 규모·금액·자격요건·계약 일정 등 공식 모집공고 정보를 제공합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/SalesInfo/announcement</guid>
+      <description><![CDATA[공급 규모·금액·자격요건·계약 일정 등 공식 모집공고 정보를 제공합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>인지세납부안내</title>
       <link>https://hangboggift.kr/SalesInfo/stampTax</link>
-      <description>계약 시 인지세 납부 기준과 금액, 준비 절차를 간단히 안내합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/SalesInfo/stampTax</guid>
+      <description><![CDATA[계약 시 인지세 납부 기준과 금액, 준비 절차를 간단히 안내합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>입지환경</title>
       <link>https://hangboggift.kr/LocationEnvironment/intro</link>
-      <description>송도역 도보권·청학역(예정) 더블역세권, GTX-B·월곶~판교선·인천발 KTX(예정) 수혜와 풍부한 생활 인프라를 갖춘 핵심 입지입니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/LocationEnvironment/intro</guid>
+      <description><![CDATA[송도역 도보권·청학역(예정) 더블역세권, GTX-B·월곶~판교선·인천발 KTX(예정) 수혜와 풍부한 생활 인프라를 갖춘 핵심 입지입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>프리미엄</title>
       <link>https://hangboggift.kr/LocationEnvironment/primium</link>
-      <description>교통·교육·의료·쇼핑 프리미엄 집약. 가천대 길병원·인천사랑병원 인접과 다양한 문화·상업시설로 원스톱 생활을 누립니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/LocationEnvironment/primium</guid>
+      <description><![CDATA[교통·교육·의료·쇼핑 프리미엄 집약. 가천대 길병원·인천사랑병원 인접과 다양한 문화·상업시설로 원스톱 생활을 누립니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
-    
-  `  <item>
+
+    <item>
       <title>단지배치도</title>
-      <link>https://hangboggift.krComplexGuide/intro</link>
-      <description>단지 배치·조경·동선 계획을 확인하고, 쾌적한 생활환경과 안전한 동선 설계를 살펴보세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <link>https://hangboggift.kr/ComplexGuide/intro</link>
+      <guid isPermaLink="true">https://hangboggift.kr/ComplexGuide/intro</guid>
+      <description><![CDATA[단지 배치·조경·동선 계획을 확인하고, 쾌적한 생활환경과 안전한 동선 설계를 살펴보세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>호수배치도</title>
       <link>https://hangboggift.kr/ComplexGuide/detailintro</link>
-      <description>동·호수 배치 정보를 제공합니다. 세대 선택과 채광·뷰 확인에 유용한 안내입니다</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/ComplexGuide/detailintro</guid>
+      <description><![CDATA[동·호수 배치 정보를 제공합니다. 세대 선택과 채광·뷰 확인에 유용한 안내입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>커뮤니티</title>
       <link>https://hangboggift.kr/ComplexGuide/community</link>
-      <description>피트니스·GX룸·라운지 등 커뮤니티 시설 구성과 이용 안내를 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/ComplexGuide/community</guid>
+      <description><![CDATA[피트니스·GX룸·라운지 등 커뮤니티 시설 구성과 이용 안내를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>40</title>
-      <link>https://hangboggift.kr/FloorPlan/59A</link>
-      <description>40 중소형 평형으로 실용성을 갖춘 평면 구성. 채광과 통풍을 고려한 설계로 실거주자에 적합합니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <link>https://hangboggift.kr/FloorPlan/40</link>
+      <guid isPermaLink="true">https://hangboggift.kr/FloorPlan/40</guid>
+      <description><![CDATA[40 중소형 평형으로 실용성을 갖춘 평면 구성. 채광과 통풍을 고려한 설계로 실거주자에 적합합니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>59A</title>
-      <link>https://hangboggift.kr/FloorPlan/84A</link>
-      <description>59A전용 59B㎡ 타입 평면과 공간 활용 아이디어를 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <link>https://hangboggift.kr/FloorPlan/59A</link>
+      <guid isPermaLink="true">https://hangboggift.kr/FloorPlan/59A</guid>
+      <description><![CDATA[59A 전용 타입 평면과 공간 활용 아이디어를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>59B</title>
-      <link>https://hangboggift.kr/FloorPlan/84B</link>
-      <description>전용 59B 타입 평면과 공간 활용 아이디어를 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <link>https://hangboggift.kr/FloorPlan/59B</link>
+      <guid isPermaLink="true">https://hangboggift.kr/FloorPlan/59B</guid>
+      <description><![CDATA[전용 59B 타입 평면과 공간 활용 아이디어를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>E-모델하우스</title>
       <link>https://hangboggift.kr/FloorPlan/Emodel</link>
-      <description>온라인으로 만나는 E‑모델하우스. 방문 전 단지와 평면, 인테리어를 가상 체험할 수 있는 최신 시스템입니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/FloorPlan/Emodel</guid>
+      <description><![CDATA[온라인으로 만나는 E-모델하우스. 방문 전 단지와 평면, 인테리어를 가상 체험할 수 있는 최신 시스템입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
-
 
     <item>
       <title>인테리어</title>
       <link>https://hangboggift.kr/Interior/59A</link>
-      <description>59A㎡ 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/Interior/59A</guid>
+      <description><![CDATA[59A㎡ 인테리어 콘셉트와 마감·옵션 스타일을 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
-
-  <item>
+    <item>
       <title>언론보도</title>
       <link>https://hangboggift.kr/송도역한신더휴/press</link>
-      <description>송도역 한신더휴 프레스턴 언론보도 모음. 분양·입지·개발호재 등 최신 기사와 보도자료를 확인하세요.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/송도역한신더휴/press</guid>
+      <description><![CDATA[송도역 한신더휴 프레스턴 언론보도 모음. 분양·입지·개발호재 등 최신 기사와 보도자료를 확인하세요.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
     <item>
       <title>관심고객등록</title>
       <link>https://hangboggift.kr/Promotion/Customer</link>
-      <description>관심고객 등록 시 청약정보, 모델하우스 오픈 정보, 분양 일정 등을 우선 제공해드리는 서비스입니다.</description>
-      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+      <guid isPermaLink="true">https://hangboggift.kr/Promotion/Customer</guid>
+      <description><![CDATA[관심고객 등록 시 청약정보, 모델하우스 오픈 정보, 분양 일정 등을 우선 제공해드리는 서비스입니다.]]></description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 +0900</pubDate>
     </item>
 
   </channel>
