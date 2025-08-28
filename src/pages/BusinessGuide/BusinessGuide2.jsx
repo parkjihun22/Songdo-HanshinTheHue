@@ -50,79 +50,15 @@ const BusinessGuide2 = () => {
 
     return (
         <div className={styles.container}>
-<Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 분양일정</title>
-        <meta
-          name="description"
-          content="송도역한신더휴의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/BusinessGuide/plan"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 분양일정"
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/BusinessGuide/plan"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 분양일정"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/BusinessGuide/plan"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "송도역한신더휴 - 분양일정",
-                                            "description": "송도역한신더휴의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!",
-                                            "url": "https://hangboggift.kr/BusinessGuide/plan"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
+            <Helmet>
+              <title>송도역 한신더휴 - 분양일정</title>
+              <meta
+                name="description"
+                content="송도역 한신더휴의 분양일정을 한눈에 확인하세요. 청약 접수일, 모델하우스 오픈 등 주요 일정을 안내합니다."
+              />
+              <link rel="canonical" href="https://hangboggift.kr/BusinessGuide/plan" />
+              <meta name="robots" content="index,follow" />
+            </Helmet>
 
             <Header isChanged={isScroll} />
             <FixIcon />

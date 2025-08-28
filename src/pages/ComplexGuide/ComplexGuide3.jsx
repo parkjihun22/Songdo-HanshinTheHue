@@ -51,82 +51,26 @@ const ComplexGuide3 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 커뮤니티</title>
+        <title>송도역 한신더휴 - 커뮤니티</title>
         <meta
           name="description"
-          content="송도역한신더휴의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
+          content="송도역 한신더휴의 커뮤니티 시설을 소개합니다. 피트니스센터, 독서실, 카페 등 다양한 편의시설로 생활 품격을 높여드립니다."
         />
-        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/ComplexGuide/community"
-        />
+        <link rel="canonical" href="https://hangboggift.kr/ComplexGuide/community" />
+        <meta name="robots" content="index,follow" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 커뮤니티"
-        />
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="송도역 한신더휴" />
+        <meta property="og:title" content="송도역 한신더휴 - 커뮤니티" />
         <meta
           property="og:description"
-          content="송도역한신더휴의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
+          content="송도역 한신더휴 커뮤니티 시설: 피트니스센터, 독서실, 카페 등 다양한 편의시설 소개."
         />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/ComplexGuide/community"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 커뮤니티"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/ComplexGuide/community"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "송도역한신더휴 - 커뮤니티",
-											"description": "송도역한신더휴의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-",
-											"url": "https://hangboggift.kr/ComplexGuide/community"
-										}
-										`}
-        </script>
+        <meta property="og:url" content="https://hangboggift.kr/ComplexGuide/community" />
+        <meta property="og:image" content="https://hangboggift.kr/img/og/complex.jpg" />
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

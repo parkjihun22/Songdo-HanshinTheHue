@@ -60,83 +60,31 @@ const BusinessGuide2 = () => {
 
 	return (
 		<div className={styles.container}>
-<Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
+				<Helmet>
+				{/* 필수 메타 */}
+				<title>송도역 한신더휴 - 당첨자 서류안내</title>
+				<meta
+					name="description"
+					content="송도역 한신더휴 계약을 위한 필수 서류와 준비 절차를 확인하세요. 청약 당첨자분들을 위한 빠르고 정확한 가이드입니다."
+				/>
+				<meta name="robots" content="index,follow" />
+				<link
+					rel="canonical"
+					href="https://hangboggift.kr/BusinessGuide/documents"
+				/>
 
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>송도역한신더휴 - 당첨자 서류안내</title>
-		<meta
-		  name="description"
-		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-  		<meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />					
-		<link
-		  rel="canonical"
-		  href="https://hangboggift.kr/BusinessGuide/documents"
-		/>
+				{/* Open Graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:site_name" content="송도역 한신더휴" />
+				<meta property="og:title" content="송도역 한신더휴 - 당첨자 서류안내" />
+				<meta
+					property="og:description"
+					content="송도역 한신더휴 계약을 위한 필수 서류와 준비 절차를 확인하세요. 청약 당첨자분들을 위한 빠르고 정확한 가이드입니다."
+				/>
+				<meta property="og:url" content="https://hangboggift.kr/BusinessGuide/documents" />
+				<meta property="og:image" content="https://hangboggift.kr/Main1.png" />
+				</Helmet>
 
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="송도역한신더휴 - 당첨자 서류안내"
-		/>
-		<meta
-		  property="og:description"
-		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-		<meta
-		  property="og:image"
-		  content="https://hangboggift.kr/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://hangboggift.kr/BusinessGuide/documents"
-		/>
-		<meta property="og:site_name" content="송도역한신더휴" />
-
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="송도역한신더휴 - 당첨자 서류안내"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://hangboggift.kr/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://hangboggift.kr/BusinessGuide/documents"
-		/>
-
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "송도역한신더휴 - 당첨자 서류안내",
-											"description": "송도역한신더휴 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-",
-											"url": "https://hangboggift.kr/BusinessGuide/documents"
-										}
-										`}
-		</script>
-	  </Helmet>  
 
 			<Header isChanged={isScroll} />
 			<FixIcon />

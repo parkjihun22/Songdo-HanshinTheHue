@@ -44,82 +44,15 @@ const LocationEnvironment1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 프리미엄</title>
-        <meta
-          name="description"
-          content="송도역한신더휴만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 한신더휴만의 독보적인 가치를 제공합니다."
-        />
-        <meta
-          name="keywords"
-          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/LocationEnvironment/primium"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 프리미엄"
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 한신더휴만의 독보적인 가치를 제공합니다."
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/LocationEnvironment/primium"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 프리미엄"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 한신더휴만의 독보적인 가치를 제공합니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/LocationEnvironment/primium"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "송도역한신더휴 - 프리미엄",
-											"description": "송도역한신더휴만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 한신더휴만의 독보적인 가치를 제공합니다.",
-											"url": "https://hangboggift.kr/LocationEnvironment/primium"
-										}
-										`}
-        </script>
-      </Helmet>
+            <Helmet>
+              <title>송도역 한신더휴 - 프리미엄</title>
+              <meta
+                name="description"
+                content="송도역 한신더휴의 프리미엄을 한눈에 확인하세요. 송도역 한신더휴의 관한 핵심 포인트를 안내합니다."
+              />
+              <link rel="canonical" href="https://hangboggift.kr/LocationEnvironment/primium" />
+              <meta name="robots" content="index,follow" />
+            </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

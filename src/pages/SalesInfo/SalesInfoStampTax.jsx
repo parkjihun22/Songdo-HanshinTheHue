@@ -48,82 +48,18 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 인지세안내 </title>
-        <meta
-          name="description"
-          content="송도역한신더휴 의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
-        />
-        <meta
-          name="keywords"
-          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/SalesInfo/stampTax"
-        />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 인지세안내 "
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴 의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/SalesInfo/stampTax"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
+             <Helmet>
+               <title>송도역 한신더휴 - 인지세납부안내</title>
+               <meta
+                 name="description"
+                 content="송도역 한신더휴의 인지세 납부에 관한 내용을 한눈에 확인하세요. 송도역 한신더휴의 필요한 인지세 비용을 안내합니다."
+               />
+               <link rel="canonical" href="https://hangboggift.kr/SalesInfo/stampTax" />
+               <meta name="robots" content="index,follow" />
+             </Helmet>
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 인지세안내 "
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/SalesInfo/stampTax"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "송도역한신더휴 - 인지세안내 ",
-                                            "description": "송도역한신더휴의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.",
-                                            "url": "https://hangboggift.kr/SalesInfo/stampTax"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

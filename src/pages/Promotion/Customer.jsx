@@ -8,6 +8,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import Bener from "../../components/Bener/Bener";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
+import { Helmet } from "react-helmet-async";
 
 export default function Customer() {
   const { pathname } = useLocation();
@@ -62,7 +63,68 @@ export default function Customer() {
   ];
 
   return (
+
     <>
+
+            <Helmet>
+            {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
+            <title>송도역 한신더휴 - 관심고객등록</title>
+            <meta
+              name="description"
+              content="송도역 한신더휴 모델하우스에 방문예약을 통해 모델하우스 위치, 현장정보 등을 사전에 안내 받으실 수 있습니다"
+            />
+            <meta name="robots" content="index,follow" />
+            <link rel="canonical" href="https://hangboggift.kr/Promotion/Customer" />
+    
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="송도역 한신더휴" />
+            <meta property="og:title" content="송도역 한신더휴 - 관심고객등록" />
+            <meta
+              property="og:description"
+              content="송도역 한신더휴 모델하우스에 방문예약을 통해 모델하우스 위치, 현장정보 등을 사전에 안내 받으실 수 있습니다"
+            />
+            <meta property="og:url" content="https://hangboggift.kr/Promotion/Customer" />
+            <meta property="og:image" content="https://hangboggift.kr/img/og/customer.jpg" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+    
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="송도역 한신더휴 - 관심고객등록" />
+            <meta
+              name="twitter:description"
+              content="송도역 한신더휴 모델하우스에 방문예약을 통해 모델하우스 위치, 현장정보 등을 사전에 안내 받으실 수 있습니다"
+            />
+            <meta name="twitter:image" content="https://hangboggift.kr/img/og/customer.jpg" />
+            <meta name="twitter:url" content="https://hangboggift.kr/Promotion/Customer" />
+    
+            {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
+            <script type="application/ld+json">
+              {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "송도역 한신더휴 - 관심고객등록",
+              "url": "https://hangboggift.kr/Promotion/Customer",
+              "description":
+                "송도역 한신더휴 모델하우스에 방문예약을 통해 모델하우스 위치, 현장정보 등을 사전에 안내 받으실 수 있습니다",
+              "primaryImageOfPage": {
+                "@type": "ImageObject",
+                "contentUrl": "https://hangboggift.kr/img/og/customer.jpg",
+                "width": 1200,
+                "height": 630
+              },
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://hangboggift.kr/" },
+                { "@type": "ListItem", "position": 2, "name": "관심고객등록", "item": "https://hangboggift.kr/Promotion/Customer" }
+                ]
+              }
+              })}
+            </script>
+            </Helmet>
+
       <Header />
       <FixIcon />
 

@@ -48,83 +48,17 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+             <Helmet>
+               <title>송도역 한신더휴 - 청약안내문</title>
+               <meta
+                 name="description"
+                 content="송도역 한신더휴의 청약안내문을 한눈에 확인하세요. 송도역 청약하는 가장 쉬운방법을 안내합니다."
+               />
+               <link rel="canonical" href="https://hangboggift.kr/SalesInfo/SubscriptionGuide" />
+               <meta name="robots" content="index,follow" />
+             </Helmet>
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 인터넷청약 </title>
-        <meta
-          name="description"
-          content="송도역한신더휴의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 송도역한신더휴의 기회를 놓치지 마세요."
-        />
-        <meta
-          name="keywords"
-          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/SalesInfo/guide"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 인터넷청약 "
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 송도역한신더휴의 기회를 놓치지 마세요"
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/SalesInfo/guide"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 인터넷청약 "
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 송도역한신더휴의 기회를 놓치지 마세요."
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/SalesInfo/guide"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "송도역한신더휴 - 인터넷청약 ",
-                                            "description": "송도역한신더휴의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 송도역한신더휴의 기회를 놓치지 마세요.",
-                                            "url": "https://hangboggift.kr/SalesInfo/guide"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
-
+             
       <Header isChanged={isScroll} />
       <FixIcon />
 

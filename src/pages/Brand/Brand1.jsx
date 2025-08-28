@@ -47,83 +47,25 @@ const Brand1 = () => {
 
     return (
         <div className={styles.container}>
-<Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+          <Helmet>
+            <title>송도역 한신더휴 - 브랜드 소개</title>
+            <meta
+              name="description"
+              content="송도역 한신더휴의 브랜드 철학과 가치, 품질 기준을 소개합니다."
+            />
+            <link rel="canonical" href="https://hangboggift.kr/Brand/intro" />
+            <meta name="robots" content="index,follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 브랜드 소개</title>
-        <meta
-          name="description"
-          content="송도역한신더휴의 브랜드 철학과 가치를 소개합니다. 현대건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 한신더휴의 브랜드 스토리와 비전을 확인해보세요.
-"
-        />
-        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/Brand/intro"
-        />
+            {/* 선택: OG 태그 (공통 이미지 사용) */}
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="송도역 한신더휴" />
+            <meta property="og:title" content="송도역 한신더휴 - 브랜드 소개" />
+            <meta property="og:description" content="송도역 한신더휴의 브랜드 철학과 가치, 품질 기준을 소개합니다." />
+            <meta property="og:url" content="https://hangboggift.kr/Brand/intro" />
+            <meta property="og:image" content="https://hangboggift.kr/images/og/main.jpg" />
+          </Helmet>
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 브랜드 소개"
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴의 브랜드 철학과 가치를 소개합니다. 현대건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 한신더휴의 브랜드 스토리와 비전을 확인해보세요.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/Brand/intro"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 브랜드 소개"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 브랜드 철학과 가치를 소개합니다. 현대건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 한신더휴의 브랜드 스토리와 비전을 확인해보세요.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/Brand/intro"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "송도역한신더휴 - 브랜드 소개",
-                                            "description": "송도역한신더휴의 브랜드 철학과 가치를 소개합니다. 현대건설의 대표 브랜드 프로지오는 고급스러움과 실용성을 결합한 주거공간을 제공합니다. 고객의 삶을 중심에 둔 설계와 혁신적인 기술, 지속 가능한 개발 철학을 통해 미래를 선도하는 주거 문화를 만들어갑니다. 한신더휴의 브랜드 스토리와 비전을 확인해보세요.
-",
-                                            "url": "https://hangboggift.kr/Brand/intro"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
             
 
             <Header isChanged={isScroll} />

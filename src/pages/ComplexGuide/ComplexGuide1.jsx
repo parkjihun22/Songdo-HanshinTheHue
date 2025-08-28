@@ -50,83 +50,65 @@ const ComplexGuide1 = () => {
 
 	return (
 		<div className={styles.container}>
-<Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
+					<Helmet>
+					{/* 페이지별 메타 */}
+					<title>송도역 한신더휴 - 단지배치도</title>
+					<meta
+						name="description"
+						content="송도역 한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민 생활 편의를 고려한 배치를 상세히 안내합니다."
+					/>
+					<meta name="robots" content="index, follow" />
+					<link rel="canonical" href="https://hangboggift.kr/ComplexGuide/intro" />
 
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>송도역한신더휴 - 단지배치도</title>
-		<meta
-		  name="description"
-		  content="송도역한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-  		<meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />	
-		<link
-		  rel="canonical"
-		  href="https://hangboggift.kr/ComplexGuide/intro"
-		/>
+					{/* Open Graph */}
+					<meta property="og:type" content="website" />
+					<meta property="og:site_name" content="송도역 한신더휴" />
+					<meta property="og:title" content="송도역 한신더휴 - 단지배치도" />
+					<meta
+						property="og:description"
+						content="송도역 한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요."
+					/>
+					<meta property="og:url" content="https://hangboggift.kr/ComplexGuide/intro" />
+					<meta property="og:image" content="https://hangboggift.kr/img/og/complex.jpg" />
+					<meta property="og:image:width" content="1200" />
+					<meta property="og:image:height" content="630" />
 
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="송도역한신더휴 - 단지배치도"
-		/>
-		<meta
-		  property="og:description"
-		  content="송도역한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-		<meta
-		  property="og:image"
-		  content="https://hangboggift.kr/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://hangboggift.kr/ComplexGuide/intro"
-		/>
-		<meta property="og:site_name" content="송도역한신더휴" />
+					{/* Twitter */}
+					<meta name="twitter:card" content="summary_large_image" />
+					<meta name="twitter:title" content="송도역 한신더휴 - 단지배치도" />
+					<meta
+						name="twitter:description"
+						content="송도역 한신더휴 단지 배치도: 입주민 생활 편의를 고려한 조경과 동선 배치를 확인하세요."
+					/>
+					<meta name="twitter:image" content="https://hangboggift.kr/img/og/complex.jpg" />
+					<meta name="twitter:url" content="https://hangboggift.kr/ComplexGuide/intro" />
 
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="송도역한신더휴 - 단지배치도"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="송도역한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://hangboggift.kr/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://hangboggift.kr/ComplexGuide/intro"
-		/>
+					{/* JSON-LD */}
+					<script type="application/ld+json">
+						{JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "송도역 한신더휴 - 단지배치도",
+						"url": "https://hangboggift.kr/ComplexGuide/intro",
+						"description":
+							"송도역 한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요.",
+						"primaryImageOfPage": {
+							"@type": "ImageObject",
+							"contentUrl": "https://hangboggift.kr/img/og/complex.jpg",
+							"width": 1200,
+							"height": 630
+						},
+						"breadcrumb": {
+							"@type": "BreadcrumbList",
+							"itemListElement": [
+							{ "@type": "ListItem", "position": 1, "name": "홈", "item": "https://hangboggift.kr/" },
+							{ "@type": "ListItem", "position": 2, "name": "단지배치도", "item": "https://hangboggift.kr/ComplexGuide/intro" }
+							]
+						}
+						})}
+					</script>
+					</Helmet>
 
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "송도역한신더휴 - 단지배치도",
-											"description": "송도역한신더휴의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-",
-											"url": "https://hangboggift.kr/ComplexGuide/intro"
-										}
-										`}
-		</script>
-	  </Helmet> 
 
 			<Header isChanged={isScroll} />
 			<FixIcon />

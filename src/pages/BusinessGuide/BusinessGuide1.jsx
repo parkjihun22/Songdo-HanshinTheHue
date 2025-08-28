@@ -54,58 +54,65 @@ const BusinessGuide1 = () => {
 	return (
 		<div className={styles.container}>
 
-			<Helmet>
-				{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-				<meta name="theme-color" content="#ffffff" />
-				<meta name="robots" content="index, follow" />
-
-				{/* SEO 최적화를 위한 메타 태그 */}
-				<title>송도역한신더휴 - 사업안내</title>
+				<Helmet>
+				{/* 페이지별 메타: title/description/og/canonical 만 관리 */}
+				<title>송도역 한신더휴 - 사업안내</title>
 				<meta
 					name="description"
-					content="송도역한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="송도역 한신더휴 사업 개요와 위치 정보를 확인하세요. 인천 연수구 청학동 핵심 입지, 단지 규모와 특징, 분양 안내 등 주요 정보를 한눈에!"
 				/>
-				<meta
-					name="keywords"
-					content="송도역한신더휴, 송도한신더휴, 사업개요"
-				/>
-				<link rel="canonical" href="https://www.alwatanyh.com/BusinessGuide/intro" />
+				<meta name="robots" content="index,follow" />
+				<link rel="canonical" href="https://hangboggift.kr/BusinessGuide/intro" />
 
-				{/* Open Graph - 소셜 미디어 공유 최적화 */}
-				<meta property="og:title" content="송도역한신더휴 - 사업안내" />
+				{/* Open Graph */}
+				<meta property="og:type" content="website" />
+				<meta property="og:site_name" content="송도역 한신더휴" />
+				<meta property="og:title" content="송도역 한신더휴 - 사업안내" />
 				<meta
 					property="og:description"
-					content="송도역한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="송도역 한신더휴 사업 개요와 위치 정보를 확인하세요. 인천 연수구 청학동 핵심 입지, 단지 규모와 특징, 분양 안내 등 주요 정보를 한눈에!"
 				/>
-				<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
-				<meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
-				<meta property="og:site_name" content="송도역한신더휴" />
+				<meta property="og:url" content="https://hangboggift.kr/BusinessGuide/intro" />
+				<meta property="og:image" content="https://hangboggift.kr/img/og/business.jpg" />
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
 
-				{/* Twitter 카드 설정 */}
+				{/* Twitter */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="송도역한신더휴 - 사업안내" />
+				<meta name="twitter:title" content="송도역 한신더휴 - 사업안내" />
 				<meta
 					name="twitter:description"
-					content="송도역한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="송도역 한신더휴 사업 개요와 위치 정보를 확인하세요. 인천 연수구 청학동 핵심 입지, 단지 규모와 특징, 분양 안내 등 주요 정보를 한눈에!"
 				/>
-				<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
-				<meta name="twitter:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
+				<meta name="twitter:image" content="https://hangboggift.kr/img/og/business.jpg" />
+				<meta name="twitter:url" content="https://hangboggift.kr/BusinessGuide/intro" />
 
-				{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+				{/* JSON-LD (대표 이미지/브레드크럼 포함) */}
 				<script type="application/ld+json">
-					{`
-					{
-						"@context": "https://schema.org",
-						"@type": "WebPage",
-						"name": "송도역한신더휴 - 사업안내",
-						"description": "송도역한신더휴의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다.",
-						"url": "https://www.alwatanyh.com/BusinessGuide/intro"
+					{JSON.stringify({
+					"@context": "https://schema.org",
+					"@type": "WebPage",
+					"name": "송도역 한신더휴 - 사업안내",
+					"url": "https://hangboggift.kr/BusinessGuide/intro",
+					"description":
+						"송도역 한신더휴 사업 개요와 위치 정보를 확인하세요. 인천 연수구 청학동 핵심 입지, 단지 규모와 특징, 분양 안내 등 주요 정보를 한눈에!",
+					"primaryImageOfPage": {
+						"@type": "ImageObject",
+						"contentUrl": "https://hangboggift.kr/img/og/business.jpg",
+						"width": 1200,
+						"height": 630
+					},
+					"breadcrumb": {
+						"@type": "BreadcrumbList",
+						"itemListElement": [
+						{ "@type": "ListItem", "position": 1, "name": "홈", "item": "https://hangboggift.kr/" },
+						{ "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://hangboggift.kr/BusinessGuide/intro" }
+						]
 					}
-					`}
+					})}
 				</script>
-			</Helmet>
+				</Helmet>
+
 
 			<Header isChanged={isScroll} />
 			<FixIcon />

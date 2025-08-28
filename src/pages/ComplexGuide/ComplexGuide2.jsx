@@ -52,82 +52,23 @@ const ComplexGuide1 = () => {
   return (
     <div className={styles.container}>
       <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 호수배치도</title>
+        <title>송도역 한신더휴 - 호수배치도</title>
         <meta
           name="description"
-          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
+          content="송도역 한신더휴의 호수 배치도를 통해 세대 위치와 전망을 확인하세요. 체계적인 동·호수 설계 안내."
         />
-        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" /> 
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/ComplexGuide/detailintro"
-        />
+        <link rel="canonical" href="https://hangboggift.kr/ComplexGuide/detailintro" />
+        <meta name="robots" content="index,follow" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 호수배치도"
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/ComplexGuide/detailintro"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 호수배치도"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/ComplexGuide/detailintro"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "송도역한신더휴 - 호수배치도",
-											"description": "송도역한신더휴의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-",
-											"url": "https://hangboggift.kr/ComplexGuide/detailintro"
-										}
-										`}
-        </script>
+        {/* Open Graph (간단) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="송도역 한신더휴" />
+        <meta property="og:title" content="송도역 한신더휴 - 호수배치도" />
+        <meta property="og:description" content="세대 위치와 전망을 한눈에. 송도역 한신더휴 호수 배치도 안내." />
+        <meta property="og:url" content="https://hangboggift.kr/ComplexGuide/detailintro" />
+        <meta property="og:image" content="https://hangboggift.kr/img/og/complex.jpg" />
       </Helmet>
+
 
       <Header isChanged={isScroll} />
       <FixIcon />

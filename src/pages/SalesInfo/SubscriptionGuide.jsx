@@ -50,82 +50,15 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />  
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 체크포인트</title>
-        <meta
-          name="description"
-          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          name="keywords"
-          content="송도역한신더휴, 송도역한신더휴, 송도역한신더휴모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/SalesInfo/SubscriptionGuide"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 체크포인트"
-        />
-        <meta
-          property="og:description"
-          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/SalesInfo/SubscriptionGuide"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 체크포인트"
-        />
-        <meta
-          name="twitter:description"
-          content="송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다."
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/SalesInfo/SubscriptionGuide"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "송도역한신더휴 - 체크포인트",
-                                            "description": "송도역한신더휴분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.",
-                                            "url": "https://hangboggift.kr/SalesInfo/SubscriptionGuide"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
+             <Helmet>
+               <title>송도역 한신더휴 - 청약방법안내</title>
+               <meta
+                 name="description"
+                 content="송도역 한신더휴의 청약하시는 방법과 내용을 한눈에 확인하세요. 송도역 한신더휴의 청약에 필요한 자격, 방법 비용을 안내합니다."
+               />
+               <link rel="canonical" href="https://hangboggift.kr/SalesInfo/SubscriptionGuide" />
+               <meta name="robots" content="index,follow" />
+             </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />

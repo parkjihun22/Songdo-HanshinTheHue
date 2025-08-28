@@ -57,84 +57,8 @@ const FloorPlanVideos = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>송도역한신더휴 - 평면안내</title>
-        <meta
-          name="description"
-          content="세대안내영상 안내 페이지는 송도역한신더휴의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta name="keywords" content="송도한신더휴, 송도역한신더휴, 임대" />
-        <link
-          rel="canonical"
-          href="https://hangboggift.kr/FloorPlan/videos"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="송도역한신더휴 - 평면안내"
-        />
-        <meta
-          property="og:description"
-          content="세대안내영상 안내 페이지는 송도역한신더휴의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://hangboggift.kr/FloorPlan/videos"
-        />
-        <meta property="og:site_name" content="송도역한신더휴" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="송도역한신더휴 - 평면안내"
-        />
-        <meta
-          name="twitter:description"
-          content="세대안내영상 안내 페이지는 송도역한신더휴의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://hangboggift.kr/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://hangboggift.kr/FloorPlan/videos"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "WebPage",
-                      "name": "송도역한신더휴 - 평면안내",
-                      "description": "세대안내영상 안내 페이지는 송도역한신더휴의 각 아파트 세대안내영상을 제공합니다.
-",
-                      "url": "https://hangboggift.kr/FloorPlan/videos"
-                    }
-                    `}
-        </script>
-      </Helmet>
-
+      
       <Header isChanged={isScroll} />
       <FixIcon />
       <Bener title="세대안내" />

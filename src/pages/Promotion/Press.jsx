@@ -132,7 +132,7 @@ export default function Press() {
 
         {!isMobile ? (
           <>
-            <table table table table className={styles.pressTable}>
+            < table className={styles.pressTable}>
               <thead>
                 <tr>
                   <th>NO</th>
